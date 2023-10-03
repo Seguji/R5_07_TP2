@@ -10,9 +10,9 @@ public class PileNPI
     }
 
     // méthode empiler
-    public void empiler(String s)
+    public void empiler(Double d)
     {
-        this.pile.push(Double.parseDouble(s));
+        this.pile.push(d);
     }
 
     // méthode depiler
